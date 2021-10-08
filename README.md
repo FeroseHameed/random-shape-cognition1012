@@ -4,6 +4,7 @@
 Name of our Team:
 
   Potao Thieves 
+  
 
 Team Members:
 
@@ -11,9 +12,11 @@ Team Members:
   Alice Efimoff (aefimoff@my.yorku.ca) SectionB Lab01
   Nour Hanna (nourh24@my.yorku.ca) SectionB Lab01
 
+
 Project Title:
 
   Random Shape Cognition
+
 
 Project Summary: (As per Sample 9 description)
 
