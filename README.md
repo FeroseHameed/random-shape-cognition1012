@@ -2,11 +2,9 @@
   EECS1012 Project
 
 Name of our Team: 
-
   Potao Thieves 
 
 Team Members:	
-
   Ferose Hameed (feroseh@my.yorku.ca) SectionB Lab01
   Alice Efimoff (aefimoff@my.yorku.ca) SectionB Lab01
   Nour Hanna (nourh24@my.yorku.ca) SectionB Lab01
