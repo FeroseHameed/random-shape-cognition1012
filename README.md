@@ -1,5 +1,5 @@
 # random-shape-cognition1012
-  EECS1012 Project
+##  EECS1012 Project
 
 **Name of our Team:**
 
