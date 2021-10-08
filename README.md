@@ -1,19 +1,21 @@
 # random-shape-cognition1012
   EECS1012 Project
 
-Name of our Team: 
+**Name of our Team: **
+
   Potao Thieves 
 
-Team Members:	
+**Team Members:	**
+
   Ferose Hameed (feroseh@my.yorku.ca) SectionB Lab01
   Alice Efimoff (aefimoff@my.yorku.ca) SectionB Lab01
   Nour Hanna (nourh24@my.yorku.ca) SectionB Lab01
 
-Project Title: 
+**Project Title: **
 
   Random Shape Cognition
 
-Project Summary: (As per Sample 9 description)
+**Project Summary:** (As per Sample 9 description)
 
   "Webpage has 4 shapes on it: circle, square, triangle, and rectangle for example (can be any 4
   shapes). The webpage will highlight one of those shapes, and the user must click on it (highlight
@@ -31,7 +33,7 @@ Project Summary: (As per Sample 9 description)
   will be applied for shape highlighting, and mouse inputs.
 
 
-Functional Requirements:
+**Functional Requirements:**
 
   •	Webpage will highlight random shapes
   
