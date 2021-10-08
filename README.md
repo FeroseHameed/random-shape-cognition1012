@@ -55,7 +55,7 @@
   
   •	Data will be saved on the JS server
   
-  •	Users will view the data as a leaderboard in a table HTML format
+  •	Users will view the data as a leaderboard in a table format
   
   •	Users will have configurable settings such as adjustable speeds for shape highlighting (aka difficulty multiplier settings)
   
