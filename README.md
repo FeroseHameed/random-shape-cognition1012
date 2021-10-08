@@ -1,7 +1,7 @@
 # random-shape-cognition1012
   EECS1012 Project
 
-Name of our Team:
+**Name of our Team:**
 
   Potao Thieves 
   
