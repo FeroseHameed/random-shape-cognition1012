@@ -42,7 +42,9 @@ Functional Requirements:
 
   •	Webpage will highlight random shapes
   
-  •	Users can click on shapes and if the shape the correct shape is clicked, another shape will be highlighted
+  •	Users can click on shapes and if the correct shape is clicked, another shape will be highlighted
+  
+  •	If the incorrect shape is clicked, the user will be prompted to start a new game
   
   •	User will be able to identify which shape they are hovering above depending on the color of the shape highlight
   
