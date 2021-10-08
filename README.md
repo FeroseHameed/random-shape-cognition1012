@@ -30,6 +30,7 @@ Project Summary: (As per Sample 9 description)
 
 
 Functional Requirements:
+
   •	Webpage will highlight random shapes
   •	Users can click on shapes and if the shape the correct shape is clicked, another shape will be highlighted
   •	User will be able to identify which shape they are hovering above depending on the color of the shape highlight
