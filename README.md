@@ -43,7 +43,7 @@
   
   •	Users can click on shapes and if the correct shape is clicked, another shape will be highlighted
   
-  •	If the incorrect shape is clicked, the user will be prompted to start a new game
+  •	If the incorrect shape is clicked, the user will be prompted to play again
   
   •	User will be able to identify which shape they are hovering above depending on the color of the shape highlight
   
@@ -60,5 +60,3 @@
   •	Users will have configurable settings such as adjustable speeds for shape highlighting (aka difficulty multiplier settings)
   
   •	Users will be able to view shapes using different interfaces
-  
-
