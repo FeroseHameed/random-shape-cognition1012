@@ -49,7 +49,7 @@
   
   •	Order of highlighted shapes will be outputted from an array
   
-  •	User’s shape identification record will be recorded in an object-based array
+  •	User records will be stored in an object-based array
   
   •	Object will consist of User’s username, quantity of highlighted shapes reached and the date and time of the acheivement 
   
