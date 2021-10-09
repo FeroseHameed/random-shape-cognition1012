@@ -1,5 +1,4 @@
 # random-shape-cognition1012
-##  EECS1012 Project
 
 **Name of our Team:**
 
@@ -19,7 +18,7 @@
   Random Shape Cognition
 
 
-**Project Summary:** (As per Sample 9 description)
+**Project Description:** (As per Sample 9 description)
 
   "Webpage has 4 shapes on it: circle, square, triangle, and rectangle for example (can be any 4
   shapes). The webpage will highlight one of those shapes, and the user must click on it (highlight
