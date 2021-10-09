@@ -38,7 +38,7 @@
 
 **Functional Requirements:**
 
-&emsp;•	Users will be prompted to enter a username and start a new game
+&emsp;•	Users will be prompted to enter a username upon starting a new game
 
 &emsp;•	Webpage will highlight random shapes upon start of game
 
@@ -52,13 +52,11 @@
 
 &emsp;•	Order of highlighted shapes will be outputted from an array
 
-&emsp;•	User records will be stored in an object-based array
+&emsp;•	User records will be stored and consist of User’s username, amount of highlighted shapes reached and the date and time of the acheivement 
 
-&emsp;•	Object will consist of User’s username, quantity of highlighted shapes reached and the date and time of the acheivement 
+&emsp;•	Users will able to pause the game via a button
 
-&emsp;•	Data will be saved on the JS server
-
-&emsp;•	Users will able to pause the game via a button and then will prompted if they would like to quit the game or adjust BGM volume
+&emsp;• Pause prompt will consist of a Quit Button and a BGM volume adjustment
 
 &emsp;•	Users will view the data as a leaderboard in a table format, located under the Leaderboard tab near the Webpage header
 
