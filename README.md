@@ -38,6 +38,8 @@
 
 **Functional Requirements:**
 
+&emsp;•	Users will be prompted to enter a username and start a new game
+
 &emsp;•	Webpage will highlight random shapes
   
 &emsp;•	Users can click on shapes and if the correct shape is clicked, another shape will be highlighted
