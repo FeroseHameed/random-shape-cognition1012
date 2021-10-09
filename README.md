@@ -2,12 +2,12 @@
 
 **Name of our Team:**
 
-   &emsp;Potao Thieves 
+ &emsp;Potao Thieves 
   
 
 **Team Members:**
 
-  | Full Name | Email address | Section & Lab # |
+&emsp;| Full Name | Email address | Section & Lab # |
   | ------------- | ----------------------| -------------- |
   | Ferose Hameed | (feroseh@my.yorku.ca) | SectionB Lab01 |	
   | Alice Efimoff | (aefimoff@my.yorku.ca) | SectionB Lab01 |
@@ -15,12 +15,12 @@
 
 **Project Title:**
 
-  Random Shape Cognition
+&emsp;Random Shape Cognition
 
 
 **Project Description:** (As per Sample 9 description)
 
-  "Webpage has 4 shapes on it: circle, square, triangle, and rectangle for example (can be any 4
+&emsp;"Webpage has 4 shapes on it: circle, square, triangle, and rectangle for example (can be any 4
   shapes). The webpage will highlight one of those shapes, and the user must click on it (highlight
   meaning make it clear that the shape is to be selected). If the user clicks on the correct image,
   the server will highlight the same shape, and one new additional shape. The user must now click
@@ -38,7 +38,7 @@
 
 **Functional Requirements:**
 
-  •	Webpage will highlight random shapes
+  &emsp;•	Webpage will highlight random shapes
   
   •	Users can click on shapes and if the correct shape is clicked, another shape will be highlighted
   
