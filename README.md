@@ -7,7 +7,7 @@
 
 **Team Members:**
 
-&emsp;| Full Name | Email address | Section & Lab # |
+  | Full Name | Email address | Section & Lab # |
   | ------------- | ----------------------| -------------- |
   | Ferose Hameed | (feroseh@my.yorku.ca) | SectionB Lab01 |	
   | Alice Efimoff | (aefimoff@my.yorku.ca) | SectionB Lab01 |
