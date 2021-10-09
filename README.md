@@ -63,5 +63,3 @@
 &emsp;•	Users will view the data as a leaderboard in a table format, located under the Leaderboard tab near the Webpage header
 
 &emsp;•	Users will have configurable settings such as adjustable speeds for shape highlighting (aka difficulty multiplier settings)
-
-&emsp;•	Users will be able to view shapes using different interfaces
