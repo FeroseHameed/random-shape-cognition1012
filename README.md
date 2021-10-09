@@ -41,6 +41,8 @@
 &emsp;•	Users will be prompted to enter a username and start a new game
 
 &emsp;•	Webpage will highlight random shapes upon start of game
+
+&emsp;•	Game will also consist of BGM similar to Kahoot's BGM
   
 &emsp;•	Users can click on shapes and if the correct shape is clicked, another shape will be highlighted
 
@@ -55,6 +57,8 @@
 &emsp;•	Object will consist of User’s username, quantity of highlighted shapes reached and the date and time of the acheivement 
 
 &emsp;•	Data will be saved on the JS server
+
+&emsp;•	Users will able to pause the game via a button and then will prompted if they would like to quit the game or adjust BGM volume
 
 &emsp;•	Users will view the data as a leaderboard in a table format
 
