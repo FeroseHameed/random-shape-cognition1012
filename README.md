@@ -60,7 +60,7 @@
 
 &emsp;•	Users will able to pause the game via a button and then will prompted if they would like to quit the game or adjust BGM volume
 
-&emsp;•	Users will view the data as a leaderboard in a table format
+&emsp;•	Users will view the data as a leaderboard in a table format, located under the Leaderboard tab near the Webpage header
 
 &emsp;•	Users will have configurable settings such as adjustable speeds for shape highlighting (aka difficulty multiplier settings)
 
