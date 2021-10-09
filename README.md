@@ -39,7 +39,6 @@
 **Functional Requirements:**
 
 &emsp;•	Game will be coded using HTML, CSS, and Java
-
 &emsp;•	Users will be prompted to enter a username and start a new game
 
 &emsp;•	Webpage will highlight random shapes upon start of game
