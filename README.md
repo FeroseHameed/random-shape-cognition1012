@@ -52,7 +52,7 @@
 
 &emsp;•	Order of highlighted shapes will be outputted from an array
 
-&emsp;•	User records will be stored and consist of User’s username, amount of highlighted shapes reached and the date and time of the acheivement 
+&emsp;•	User records will be stored and consist of User’s username, # of highlighted shapes reached and the date and time of the acheivement 
 
 &emsp;•	Users will able to pause the game via a button
 
