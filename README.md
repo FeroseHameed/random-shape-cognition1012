@@ -28,7 +28,7 @@
   highlighted and saves the order of highlighted images in an array on its server-side JS."
   Lastly, a leaderboard will display all players records and will also be connected to the JS server side. 
   
-  Additional features will include a timer showing the amount of time elapsed, settings to alter the difficulty/modes of the game, 
+&emsp;Additional features will include a timer showing the amount of time elapsed, settings to alter the difficulty/modes of the game, 
   and color variants upon different inputs to help the player verify if they are progressing accordingly. Leaderboards will 
   only be updated if the player decides to save their record by inputting their username and clicking update. Setting alterations 
   can only be made prior to attempting a match, changes cannot be made during a match. Players will be able to pause and 
@@ -38,24 +38,24 @@
 
 **Functional Requirements:**
 
-  &emsp;•	Webpage will highlight random shapes
+&emsp;•	Webpage will highlight random shapes
   
-  •	Users can click on shapes and if the correct shape is clicked, another shape will be highlighted
-  
-  •	If the incorrect shape is clicked, the user will be prompted to play again
-  
-  •	User will be able to identify which shape they are hovering above depending on the color of the shape highlight
-  
-  •	Order of highlighted shapes will be outputted from an array
-  
-  •	User records will be stored in an object-based array
-  
-  •	Object will consist of User’s username, quantity of highlighted shapes reached and the date and time of the acheivement 
-  
-  •	Data will be saved on the JS server
-  
-  •	Users will view the data as a leaderboard in a table format
-  
-  •	Users will have configurable settings such as adjustable speeds for shape highlighting (aka difficulty multiplier settings)
-  
-  •	Users will be able to view shapes using different interfaces
+&emsp;•	Users can click on shapes and if the correct shape is clicked, another shape will be highlighted
+
+&emsp;•	If the incorrect shape is clicked, the user will be prompted to play again
+
+&emsp;•	User will be able to identify which shape they are hovering above depending on the color of the shape highlight
+
+&emsp;•	Order of highlighted shapes will be outputted from an array
+
+&emsp;•	User records will be stored in an object-based array
+
+&emsp;•	Object will consist of User’s username, quantity of highlighted shapes reached and the date and time of the acheivement 
+
+&emsp;•	Data will be saved on the JS server
+
+&emsp;•	Users will view the data as a leaderboard in a table format
+
+&emsp;•	Users will have configurable settings such as adjustable speeds for shape highlighting (aka difficulty multiplier settings)
+
+&emsp;•	Users will be able to view shapes using different interfaces
