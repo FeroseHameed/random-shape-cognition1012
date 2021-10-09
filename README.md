@@ -2,7 +2,7 @@
 
 **Name of our Team:**
 
-    Potao Thieves 
+   Potao Thieves 
   
 
 **Team Members:**
