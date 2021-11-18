@@ -3,29 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title> The Potao Thieves Project </title>
-    <!-- JS and CSS Sheets linked-->
+    <!-- CSS, jQuery, JS -->
     <link rel="stylesheet" type="text/css" href="ShapeRecognition.css" title="style" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="ShapeRecognition.js"></script>
 </head>
 
 <body>
 
-    <div id="gamecontainer">
+    <div id="mainPage">
         <header>
             <h1>Memory Palace</h1>
         </header>
 
         <div class="container">
- 
             <div id="options">
-                <nav>
-                    <a href="GamePage.html"><button onclick="startGame()">Start</button></a>
-                    <button onclick="cont()">Continue</button>
-                    <button onclick="howToPlay()">How To Play</button>
-                    <button onclick="settings()">Settings</button>
-                </nav>
+                <nav></nav>
             </div>
-
+            <div id="gameBoard"></div>
         </div>
 
         <footer>Authors: Alice Efimoff, Ferose Hameed</footer>
