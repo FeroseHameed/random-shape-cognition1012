@@ -63,3 +63,9 @@
 
 **Wireframe**
 https://hannanour2002.wixsite.com/memory-palace
+
+
+**Phase 3 Status:**
+- A lot of Client Side coding (HTML, JS, CSS) has been done
+- Leaderboards, Volume Adjustments are still undergoing tinkering
+- Server Side development has yet to begin
