@@ -62,6 +62,8 @@
 &emsp;•	Users will have configurable settings such as adjustable speeds for shape highlighting (aka difficulty multiplier settings)
 
 **Wireframe**
+(Please refer to the link below for an interactive wireframe,
+ or refer to 2_PT3.docx for a more detailed wireframe)
 https://hannanour2002.wixsite.com/memory-palace
 
 
