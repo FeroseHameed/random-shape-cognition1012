@@ -1,94 +1,122 @@
-body{
-    background: rgb(28, 22, 34);
-    
+body {
+  background: rgb(28, 22, 34);
 }
 /* Semantic Elements */
-nav{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
-footer{
-    color: rgb(238, 188, 52);
+footer {
+  color: rgb(238, 188, 52);
+ 
+  font-family: sans-serif;
 
-    font-family: sans-serif;
-
-    vertical-align: bottom;
+  vertical-align: bottom;
+  
 }
 
 /* Elements */
-h1{
-    color: rgb(238, 188, 52);
-    background: linear-gradient(164deg, rgba(110,110,230, 0.5) 30%, rgba(161, 105, 218, 0.4) 83%);
+h1 {
+  color: rgb(238, 188, 52);
+  background: linear-gradient(
+    164deg,
+    rgba(110, 110, 230, 0.5) 30%,
+    rgba(161, 105, 218, 0.4) 83%
+  );
 
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 4vw;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
 
-    
-    border: 8px solid rgb(157, 137, 228);
-    border-radius: 25px;
-    
-    padding: 0.1em;
-    margin: 1vh 21vw;
+  border: 8px solid rgb(157, 137, 228);
+  border-radius: 25px;
+
+  padding: 0.1em;
+  margin: 1vh 21vw;
 }
-button{
-    display: inline-block;
+button {
+  display: inline-block;
 
-    background-color: rgb(66, 105, 235);
-    color: white;
+  background-color: rgb(66, 105, 235);
+  color: white;
 
-    border: none;
-    border-radius: 2vw;  
-    
-    text-align: center;
-    font-size: 1.5vw;
+  border: none;
+  border-radius: 2vw;
 
-    margin: 0 0.5vw;
-    padding: 1.5vh 2vw;
-    
-    cursor: pointer;
+  text-align: center;
+  font-size: 1.5vw;
+
+  margin: 0 0.5vw;
+  padding: 1.5vh 2vw;
+
+  cursor: pointer;
 }
-button:hover{
-    background-color: rgb(56, 92, 209);
+button:hover {
+  background-color: rgb(56, 92, 209);
 }
 
 /* IDs and classes */
-div.container{
-    justify-content: center;
+.container {
+  justify-content: center;
 
-    display:flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    border-radius: 15px;
+  border-radius: 15px;
 }
-#mainPage{
-    background: url("https://cdn.discordapp.com/attachments/895407358098964490/905187602976624690/Palace.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; 
-    background-size: cover;
+#mainPage {
+  background: url("https://cdn.discordapp.com/attachments/895407358098964490/905187602976624690/Palace.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: cover;
 
-    border-radius: 25px;
+  border-radius: 25px;
 
-    padding: 1vh 1vw;
-    margin: 20px;
-    
+  padding: 1vh 1vw;
+  margin: 20px;
 }
-#gameBoard{
-    flex: 65vh;
+.gameBoard{
+  flex: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1vh 5vw 2vh;
+  border: 8px solid rgb(157, 137, 228);
+  border-radius: 25px;
+}
+#gameBoard {
+  background: linear-gradient(
+    164deg,
+    rgba(110, 110, 230, 0.65) 30%,
+    rgba(161, 105, 218, 0.65) 83%
+  );
+}
+#pause{
+  background: linear-gradient(
+    164deg,
+    rgba(161, 210, 243, 0.9) 30%,
+    rgba(82, 138, 201, 0.9) 83%
+  );
+  
+}
+img.shape{
+  width: 15vw;
+  margin: 0;
+  display: block;
+  margin-left: 6px;
+  margin-right: 6px;
 
-    border: 8px solid rgb(157, 137, 228);
-    border-radius: 25px;
-
-    background: linear-gradient(164deg, rgba(110,110,230, 0.9) 30%, rgba(161, 105, 218, 0.9) 83%);
-
-    margin: 1vh 5vw 2vh;
+  cursor: pointer;
+}
+img.shape:hover{
+  filter: hue-rotate(340deg);
 }
 
-/*
-#options, header{
-    background: rgb(1,1,1);
-}*/
+.coverpage{
+  z-index: 10;
+}
+
