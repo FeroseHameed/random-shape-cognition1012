@@ -72,7 +72,7 @@ function start(){
 }
 function continueGame(){
    $(".gameBoard").empty();//Empty the gameboard
-   
+
    
 }
 function howToPlay(){
@@ -82,4 +82,7 @@ function howToPlay(){
 function settings(){
    $(".gameBoard").empty();//Empty the gameboard
 
+   var newHeader = document.createElement("h2");
+   $(newHeader).html("Settings");
+   $("#gameBoard").append(newHeader);
 }
