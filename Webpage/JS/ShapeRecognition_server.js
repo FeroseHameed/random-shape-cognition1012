@@ -101,3 +101,11 @@ function generatePattern(clientName) {
     //store the pattern for this client
     patterns[clientName] = pattern;
 }
+
+/*
+As of Nov 21st the only changes made to Lab09's version of this server code is
+the changing of variables according to our game, determining a basic algorithim
+for a score (score = time elapsed), and a difficulty modifier per lvl.
+
+Code must be added to client side js file to reciprocate current server code
+*/
