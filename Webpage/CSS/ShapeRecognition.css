@@ -1,131 +1,176 @@
+*{
+    font-size: 2vw;
+    color: rgb(238, 188, 52);
+    font-family: sans-serif;
+}
 body {
-  background: rgb(28, 22, 34);
+    background: rgb(28, 22, 34);
 }
-/* Semantic Elements */
-nav {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-footer {
-  color: rgb(238, 188, 52);
- 
-  font-family: sans-serif;
 
-  vertical-align: bottom;
-  
+
+/* Semantic Elements */
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
+
+footer {
+    color: rgb(238, 188, 52);
+    font-family: sans-serif;
+    vertical-align: bottom;
+    font-size: 5px;
+    margin-left: 4vw;
+}
+
 
 /* Elements */
+
 h1 {
-  color: rgb(238, 188, 52);
-  background: linear-gradient(
-    164deg,
-    rgba(110, 110, 230, 0.5) 30%,
-    rgba(161, 105, 218, 0.4) 83%
-  );
-
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 4vw;
-
-  border: 8px solid rgb(157, 137, 228);
-  border-radius: 25px;
-
-  padding: 0.1em;
-  margin: 1vh 21vw;
+    color: rgb(238, 188, 52);
+    background: linear-gradient( 164deg, rgba(110, 110, 230, 0.5) 30%, rgba(161, 105, 218, 0.4) 83%);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 5vh;
+    border: 0.2em solid rgb(157, 137, 228);
+    border-radius: 25px;
+    padding: 0.1em;
+    margin: 1vh 21vw;
 }
+
+
+/* Settings Header */
+
 h2 {
-  color: rgb(238, 188, 52);
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 5vh;
-  margin-top: 0;
+    color: rgb(238, 188, 52);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 0;
 }
+
 button {
-  display: inline-block;
-
-  background-color: rgb(66, 105, 235);
-  color: white;
-
-  border: none;
-  border-radius: 2vw;
-
-  text-align: center;
-  font-size: 1.5vw;
-
-  margin: 0 0.5vw;
-  padding: 1.5vh 2vw;
-
-  cursor: pointer;
+    display: inline-block;
+    background-color: rgb(66, 105, 235);
+    color: white;
+    border: none;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 0 0.5vw;
+    padding: 1.5vh 2vw;
+    cursor: pointer;
 }
+
 button:hover {
-  background-color: rgb(56, 92, 209);
+    background-color: rgb(56, 92, 209);
 }
+
 
 /* IDs and classes */
+
 .container {
-  justify-content: center;
-
-  display: flex;
-  flex-direction: column;
-
-  border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
 }
+
 #mainPage {
-  background: url("https://cdn.discordapp.com/attachments/895407358098964490/905187602976624690/Palace.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-size: cover;
-
-  border-radius: 25px;
-
-  padding: 1vh 1vw;
-  margin: 20px;
+    background: url("https://cdn.discordapp.com/attachments/895407358098964490/905187602976624690/Palace.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5vh;
+    padding: 1vh 1vw;
+    margin: 2vw;
 }
-.gameBoard{
-  flex: 65vh;
-  display: flex;
-  /*align-items: center;*/
-  justify-content: center;
-  margin: 1vh 5vw 2vh;
-  border: 8px solid rgb(157, 137, 228);
-  border-radius: 25px;
+
+.gameBoard {
+    justify-content: center;
+    flex: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* Center Array */
+    margin: 1vh 5vw 2vh;
+    border: 0.5vw solid rgb(157, 137, 228);
+    border-radius: 5vh;
 }
+
 #gameBoard {
-  background: linear-gradient(
-    164deg,
-    rgba(110, 110, 230, 0.65) 30%,
-    rgba(161, 105, 218, 0.65) 83%
-  );
-}
-#pause{
-  background: linear-gradient(
-    164deg,
-    rgba(161, 210, 243, 0.9) 30%,
-    rgba(82, 138, 201, 0.9) 83%
-  );
-  
-}
-img.shape{
-  width: 15vw;
-  height: 15vw;
-  margin: 0;
-  display: block;
-  margin-left: 6px;
-  margin-right: 6px;
-
-  cursor: pointer;
-}
-img.shape:hover{
-  filter: hue-rotate(340deg);
+    background: linear-gradient( 164deg, rgba(110, 110, 230, 0.65) 30%, rgba(161, 105, 218, 0.65) 83%);
 }
 
-.coverpage{
-  z-index: 10;
+#pause {
+    background: linear-gradient( 164deg, rgba(161, 210, 243, 0.9) 30%, rgba(82, 138, 201, 0.9) 83%);
 }
-/*.volume{}*/
 
+.shape {
+    width: 10vw;
+    height: 10vw;
+    margin: 0;
+    display: block;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.shape:hover {
+    filter: hue-rotate(340deg);
+}
+
+#settings {
+    align-content: center;
+    height: 50vh;
+    margin: auto;
+    margin-top: 0;
+    flex-shrink: 3;
+    padding: 0 3vw;
+}
+
+
+/*Volume sliders*/
+
+.slideContainer {
+    align-content: center;
+    width: 45%;
+    margin: auto;
+}
+
+input[type='range'] {
+    width: 80%;
+    -webkit-appearance: none;
+    overflow: hidden;
+    height: 3vh;
+    border-radius: 5px;
+    background-color: rgb(252, 217, 171);
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 8px;
+    background: #805a16;
+    box-shadow: -1005px 0 0 1000px rgb(238, 188, 52);
+}
+
+input[type="range"]::-moz-range-track {
+    background-color: rgb(238, 188, 52);
+    background-color: none;
+}
+
+/* #bgm::before{
+    content: "BGM ";
+    position: absolute;
+    color: rgb(238, 188, 52);
+    font-size: 3.5vh;
+    margin-left: -5vw;
+    margin-top: -0.25vh;
+}*/
