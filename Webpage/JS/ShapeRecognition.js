@@ -200,6 +200,8 @@ function colorChanger(){
         imgArr[i].style.filter= "";
     }
 
+}
+
 //Set random shape to a random colour
 function colorRepeat(){
     highlightNum =  Math.floor(Math.random() * gameArray.length);
