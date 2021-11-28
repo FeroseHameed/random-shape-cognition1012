@@ -53,6 +53,16 @@ h2 {
     margin-bottom: 0;
 }
 
+h3{
+    color: rgb(238, 188, 52);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 7vh;
+    margin-top: 2vh;
+    margin-bottom: 0;
+}
+
 button {
     display: inline-block;
     background-color: rgb(66, 105, 235);
@@ -70,7 +80,9 @@ button:hover {
     background-color: rgb(56, 92, 209);
 }
 
-
+p{
+    margin: 3vw;
+}
 /* IDs and classes */
 
 .container {
@@ -93,6 +105,7 @@ button:hover {
 }
 
 .gameBoard {
+    z-index: 1;
     /* justify-content: center; */
     flex: 65vh;
     display: flex;
@@ -173,12 +186,3 @@ input[type="range"]::-moz-range-track {
     background-color: rgb(238, 188, 52);
     background-color: none;
 }
-
-/* #bgm::before{
-    content: "BGM ";
-    position: absolute;
-    color: rgb(238, 188, 52);
-    font-size: 3.5vh;
-    margin-left: -5vw;
-    margin-top: -0.25vh;
-}*/
