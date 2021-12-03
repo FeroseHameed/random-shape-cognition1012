@@ -17,7 +17,7 @@ function readfile() {
     var filedata;//Stores text file
     var fileerror;//Stores error
     try {//Read give text file
-        filedata = fs.readFileSync('users/alice.txt', 'utf8');
+        filedata = fs.readFileSync('users/userinfo.txt', 'utf8');
         console.log(filedata);
         //console.log(name);
         //console.log(scoreNum);
@@ -65,7 +65,7 @@ app.get('/setuser', (req, res) => {
         content = `{"users":[{"name":"` + name + `","score":` + score + `}]}`;
         console.log(content);
     }
-    fs.writeFile('users/alice.txt', content,
+    fs.writeFile('users/userinfo.txt', content,
         function (err) { if (err) { return console.log(err); } });
     res.send(content);
 });
