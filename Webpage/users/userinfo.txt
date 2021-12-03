@@ -1,0 +1,1 @@
+{"users":[{"name":"nik","score":6},{"name":"alice","score":20},{"name":"fgyhg","score":8}]}
