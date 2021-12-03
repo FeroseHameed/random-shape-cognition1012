@@ -2,8 +2,7 @@ var fs = require('fs');
 var codes = {};
 var express = require('express');
 var app = express();
-var idCounter = 0;
-var scoreNum = 0;
+var score = 0;
 
 app.get('/getuser', (req, res) => {
     res.header("Access-Control-Allow-Origin", "*");
@@ -31,7 +30,9 @@ function readfile() {
 app.get('/setuser', (req, res) => {
     res.header("Access-Control-Allow-Origin", "*");
     var name = req.query['name'];
-    var score = req.query['score'];
+    if(score < req.query['score']){
+        score = req.query['score'];
+    }
     var content = '';
     var filedata = readfile();
     console.log('Setting users....');
