@@ -45,19 +45,19 @@
   
 &emsp;•	Users can click on shapes and if the correct shape is clicked, another shape will be highlighted ✓
 
-&emsp;•	If the incorrect shape is clicked, the user will be prompted to play again 
+&emsp;•	If the incorrect shape is clicked, the user will be prompted to play again ✓
 
 &emsp;•	User will be able to identify which shape they are hovering above depending on the color of the shape highlight ✓
 
 &emsp;•	Order of highlighted shapes will be outputted from an array ✓
 
-&emsp;•	User records will be stored and consist of User’s username, # of highlighted shapes reached and the date and time of the acheivement 
+&emsp;•	User records will be stored and consist of User’s username, # of highlighted shapes reached and the date and time of the acheivement ✓ 
 
 &emsp;•	Users will able to pause the game via a button ✓
 
 &emsp;• Pause prompt will consist of a Quit Button and a BGM volume adjustment ✓
 
-&emsp;•	Users will view the data as a leaderboard in a table format, located under the Leaderboard tab near the Webpage header 
+&emsp;•	Users will view the data as a leaderboard in a table format, located under the Leaderboard tab near the Webpage header ✓
 
 &emsp;•	Users will have configurable settings such as adjustable speeds for shape highlighting (aka difficulty multiplier settings) ✓
 
@@ -68,6 +68,4 @@ https://hannanour2002.wixsite.com/memory-palace
 
 
 **Phase 3 Status:**
-- A lot of Client Side coding (HTML, JS, CSS) has been done
-- Leaderboards, Volume Adjustments are still undergoing tinkering
-- Server Side development has yet to begin
+- Game is now complete
