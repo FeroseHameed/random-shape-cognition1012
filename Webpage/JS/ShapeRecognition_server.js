@@ -30,8 +30,10 @@ function readfile() {
 app.get('/setuser', (req, res) => {
     res.header("Access-Control-Allow-Origin", "*");
     var name = req.query['name'];
+    console.log("Score before: " + score);
     if(score < req.query['score']){
         score = req.query['score'];
+        console.log("Score after: " + score);
     }
     var content = '';
     var filedata = readfile();
