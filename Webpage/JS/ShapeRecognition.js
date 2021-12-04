@@ -118,6 +118,10 @@ function gameOver() {
     makeNewSequence = true;
     restartGame = true;//Reset board next time play is clicked
     orderMaker = 0;
+    checkOrder = 0;
+    needToHighlight = true;
+    numOfTimesHighlighted = 2;
+    highlightedArray = [];
     $("nav").empty();//Empty the gameboard and nav
     $(".gameBoard").empty();
     var someText = document.createElement("h3");//Game Over header
@@ -350,10 +354,6 @@ function checkShape(el) {//Evaluate input
     } else {
         gameOverAudio.play();
         gameOver();
-        checkOrder = 0;
-        needToHighlight = true;
-        numOfTimesHighlighted = 2;
-        highlightedArray = [];
     }
 }
 
